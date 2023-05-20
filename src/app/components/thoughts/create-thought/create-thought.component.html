@@ -9,6 +9,7 @@
       class="input"
       id="thought"
       name="thought"
+      [(ngModel)]="thought.content"
       placeholder="Digite o pensamento..."
     >
     <label for="author">Autoria ou fonte</label>
@@ -17,6 +18,7 @@
       class="input"
       id="author"
       name="author"
+      [(ngModel)]="thought.author"
       placeholder="Digite a autoria ou fonte"
     >
     <label for="modelo">Selecione o modelo do card:</label>
@@ -28,6 +30,7 @@
             id="modelo1"
             value="modelo1"
             name="modelo-card"
+            [(ngModel)]="thought.model"
             >
             <div class="custom-radio">
               <span></span>
@@ -37,8 +40,8 @@
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
           <img src="../../../../assets/modelo1.png" alt="Aspas azuis">
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><b>Aqui vai a autoria</b></p>
+          <p class="conteudo">{{ thought.content }}</p>
+          <p class="autoria"><b>{{ thought.author }}</b></p>
         </div>
       </div>
       <div class="radio-modelo">
@@ -47,6 +50,7 @@
             type="radio"
             id="modelo2"
             value="modelo2"
+            [(ngModel)]="thought.model"
             name="modelo-card"
             >
             <div class="custom-radio">
@@ -57,8 +61,8 @@
         Prévia:
         <div class="modelo modelo2 ff-roboto-mono">
           <img src="../../../../assets/modelo2.png" alt="Aspas azul claro">
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><b>Aqui vai a autoria</b></p>
+          <p class="conteudo"> {{ thought.content }}</p>
+          <p class="autoria"><b>{{ thought.author }}</b></p>
         </div>
       </div>
       <div class="radio-modelo">
@@ -67,6 +71,7 @@
             type="radio"
             id="modelo3"
             value="modelo3"
+            [(ngModel)]="thought.model"
             name="modelo-card"
           >
           <div class="custom-radio">
@@ -77,14 +82,14 @@
           Prévia:
           <div class="modelo modelo3 ff-roboto-mono">
             <img src="../../../../assets/modelo3.png" alt="Aspas verdes">
-            <p class="conteudo">Aqui vai o conteúdo</p>
-            <p class="autoria"><b>Aqui vai a autoria</b></p>
+            <p class="conteudo">{{ thought.content }}</p>
+            <p class="autoria"><b>{{ thought.author }}</b></p>
           </div>
       </div>
     </div>
     <div class="acoes">
-      <button class="botao">Salvar</button>
-      <button class="botao">Cancelar</button>
+      <button class="botao" (click)="createThought()">Salvar</button>
+      <button class="botao" (click)="cancelThought()">Cancelar</button>
     </div>
   </form>
 </section>
