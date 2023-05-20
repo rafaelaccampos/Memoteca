@@ -7,7 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class ThoughtComponent {
 
-  @Input() thought = {
+  @Input() thought : Thought = {
+    id: 0,
     content: 'Aprendendo novas coisas',
     author: 'Eu',
     model: 'modelo3'

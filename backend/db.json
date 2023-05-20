@@ -1,0 +1,40 @@
+{
+  "thoughts": [
+    {
+      "id": 1,
+      "content": "Que bom que você veio!",
+      "author": "Desconhecido",
+      "model": "modelo1"
+    },
+    {
+      "id": 2,
+      "content": "Você é minha raposa!",
+      "author": "Desconhecido",
+      "model": "modelo2"
+    },
+    {
+      "id": 3,
+      "content": "Mas ela não precisa se fechar em si mesma!",
+      "author": "Desconhecido",
+      "model": "modelo3"
+    },
+    {
+      "id": 4,
+      "content": "Aproveite o dia!",
+      "author": "Desconhecido",
+      "model": "modelo1"
+    },
+    {
+      "id": 5,
+      "content": "Oh captain, my captain!",
+      "author": "Desconhecido",
+      "model": "modelo2"
+    },
+    {
+      "id": 6,
+      "content": "Amor é amor, romance é romance e um lance é um lance!",
+      "author": "Desconhecido",
+      "model": "modelo3"
+    }
+  ]
+}
