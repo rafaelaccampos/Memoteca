@@ -9,6 +9,9 @@ import { CreateThoughtComponent } from './components/thoughts/create-thought/cre
 import { FormsModule } from '@angular/forms';
 import { ListThoughtComponent } from './components/thoughts/list-thought/list-thought.component';
 import { ThoughtComponent } from './components/thoughts/thought/thought.component';
+import { HttpClientModule } from '@angular/common/http';
+import { DeleteThoughtComponent } from './components/thoughts/delete-thought/delete-thought.component';
+import { UpdateThoughtComponent } from './components/thoughts/update-thought/update-thought.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { ThoughtComponent } from './components/thoughts/thought/thought.componen
     CreateThoughtComponent,
     ListThoughtComponent,
     ThoughtComponent,
+    DeleteThoughtComponent,
+    UpdateThoughtComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
