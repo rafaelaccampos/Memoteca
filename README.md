@@ -9,7 +9,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Angular 16](https://angular.io/)
-- [Json Server](https://www.npmjs.com/package/json-server)
+- [JSON Server](https://www.npmjs.com/package/json-server)
 - [Testing Library](https://testing-library.com/)
 
 ## Como usar?
