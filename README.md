@@ -1,27 +1,55 @@
-# Memoteca
+<p align="center">
+  <h1>Memoteca</h1>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+## 💻 Projeto
 
-## Development server
+ Um projeto em Angular que permite adicionar, ler, atualizar e excluir citações feito com base no curso de Angular da Alura.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🧪 Tecnologias
 
-## Code scaffolding
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular 16](https://angular.io/)
+- [Json Server](https://www.npmjs.com/package/json-server)
+- [Testing Library](https://testing-library.com/)
 
-## Build
+## Como usar?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  Você precisará no mínimo da versão ^16.14.0 do Node.
+  Você precisará do Angular CLI.
+  Você pode executar no Visual Studio Code (Windows, Linux ou MacOS).
 
-## Running unit tests
+## 🚀 Como executar?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clone o projeto e acesse a pasta do mesmo.
 
-## Running end-to-end tests
+```bash
+$ git clone https://github.com/rafaelaccampos/Memoteca
+$ cd Memoteca
+```
+Para iniciar o projeto, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+# Iniciar o projeto
+$ ng serve
+```
+O app estará disponível no seu browser pelo endereço https://localhost:4200.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para iniciar a api Fake com Json Server, siga os passos abaixo:
+```bash
+# Para instalar o Json Server
+$ npm install -g json-server
+# Entre na pasta da api fake do Json Server
+$ cd backend
+# Iniciar o projeto
+$ json-server --watch db.json
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-## Further help
+Para iniciar o testes, siga os passos abaixo:
+```bash
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito com 💜 by Rafaela Cassiano Campos 👋🏻
