@@ -1,6 +1,4 @@
-<p style="text-align: center;">
-  <h1>Memoteca</h1>
-</p>
+<h1 style="text-align: center;">Memoteca</h1>
 
 ## 💻 Projeto
 
