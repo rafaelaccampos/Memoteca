@@ -1,4 +1,4 @@
-<p align="center">
+<p style="text-align:center;">
   <h1>Memoteca</h1>
 </p>
 
