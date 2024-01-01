@@ -13,18 +13,20 @@ describe('CreateThoughtComponent', () => {
   });
 */
 
-  it('should be able to create a thought', () => {
-
+  fit('should be able to create a thought', async () => {
     //Renderizar o componente
+    await render(CreateThoughtComponent);
+
     //Preencher o pensamento (input)
-    //Preencher a autoria e a fonte
+    //Preencher a autoria e a fonte (input)
     //Selecionar o modelo do card
     //Clicar no botão salvar
+    //Verificar se foi redirecionado para a lista
   });
 
   it('should be able to cancel a thought', () => {
     //Renderizar o componente
     //Clicar no botão salvar
-    //Verificar se foi redirecionado para lista
+    //Verificar se foi redirecionado para a lista
   });
 });
