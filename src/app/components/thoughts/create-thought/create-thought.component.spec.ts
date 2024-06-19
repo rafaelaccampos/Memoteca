@@ -23,10 +23,4 @@ describe('CreateThoughtComponent', () => {
     //Clicar no botão salvar
     //Verificar se foi redirecionado para a lista
   });
-
-  it('should be able to cancel a thought', () => {
-    //Renderizar o componente
-    //Clicar no botão salvar
-    //Verificar se foi redirecionado para a lista
-  });
 });
